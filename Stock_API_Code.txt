@@ -7,11 +7,12 @@ from datetime import datetime
 # Google Service Account JSON Credentials
 json_creds = {
     "type": "service_account",
-    "project_id": "stock-price-441512",
-    "private_key_id": "2bb176aaf27614f86ff79eb7afb34dabb499a5c9",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9pKiM0N8/6G+B\n+/9JTKndu0KWtdjKguaA17Y1dmuf5Jy2TMXyb11PnecdT+pOhhnv4HY5nnDWW3lD\nlBIEBN305TRYM8WUmUm2hqWQC5dYVfKynwJ8QMo+I/LbB/jLsTwrIAkolWteCu3J\n91azATVhAV1jnyPbqcazjZ/Gs7E7H/FKU0R0NOtlMqxWwck1KsqPvgChLjSuLgpS\nj7C+Ca+27Xboya2jJhQblBSLkJAyyqGDmF4b2120gNA1PhvaR69pWYy3dw9fhkZt\n+FaMABrXDN8mbXxF5ldRKpu44F50lagZE+h2U931zmsXywuwuF+p+Ns7F6aOFZSR\nQ9XH+cUtAgMBAAECggEAMLR6w1ubkp7AEKqnKGyjjbpbwjgm2u/egkWkWru0rWZ5\n5wn1pqt6VAnSQwF0xEEFpUlJI8gw46Svkq8TJ2wWkyBQnryBKIZr25BeMg4ACyRb\nxgs3iLDdIDN8WkuEVtAIi2zZXU5uukLlSkMXRbbwPh8rHHxRKcfDK/caC164DF5Z\nCw44U+D9T3p2/jmM90q63v+VjJrnKMabJfoimYBC4rss5MVhwhGjnEkjI6I9IcXs\nZzU2VqALdyh01sJIy+Sdl1dj1IVzkVjdLYXFt1XLGK0+Dbj5VJjUZfx0rhEq4eRq\nQfLcYfqRakLMQlqNIbFSZZ96I/j83DL5uvGlDaXM4wKBgQDkOhwNj7+GvPrc0d4O\nfNHzQcOQVFJve7ix4N6SjWNBXi0AwnBDoDpJLTALPkFfI+VEb0DZ2frtCA1RDgVx\nzpiX7BJ3M3Sjd4jRBU7hEAoJEHQaALssRXQIsMWfqk/4rjGZmhecTt5H6YSX+BrN\nQxN0PKufyPqXVm0YzLE03C8edwKBgQDUuI8TBte0fCyrh8Vn+36M+sJ/Q3mSwHdW\nzszzRi5v0ncsGlB2e+g/Awi0NyqCe4OphVMPPMC8AOsyNGYIl+ErZjxGaH+n42Pl\nDnRnf1R58GM0wXMldaBS41WDkPc3Ds6FeZtuJHLVtdV6jl0jknO89HaoujKFz64s\nRMTCaHluewKBgQCv4gCAiwllAvqpdqsUqyj5uPLHpdQpykUaAFxGwON/Gt6/uRjf\nZPnGLybZY07pzTYAuWRW/2Abj5sDnjSf8kEyw2Gvr13yJEqyGs8hL0Usmxt+dpXI\nlnXHxMNoOs6KrWPYJiKP+U/gR5xBqZiuG0VAzQjOiQpl2tsUw5rFS/KcHQKBgDU1\naQxgVMpfmSja0EUfQltvSgFdVmaf3/oFxnw/nNP5uDd+6YuJmOFSF/ZEKkzzKk7X\n+5u/HZKpRCuNscwKeZdKfl86Olw7Y7xi7jkJP4800wvaK7w9/PlexgAf3caW3I/E\niF13noXYcuqx+5gvROYJ3Dh+Qq738OA/31ulmGJLAoGBANbscxHH3iwtm4oDxpQA\nGfjfTJBlwPeG1Rpx8WPD2GKlwGp2thfPvbX07JmyoJ8bYX62+sI3q7/RUjEy55Ik\nxZwS7KBGbuYBWRXNBaPBjEu00JZGI2HuKd/yLA+pl54SDehKP+QAk3AddMxYm2BY\nPyr6+4NCKoB2KRs/R4ks00Kx\n-----END PRIVATE KEY-----\n",
-    "client_email": "stock-pricing@stock-price-441512.iam.gserviceaccount.com",
-    "client_id": "116222248091372597528",
+    "project_id": "stock-price-******",
+    "private_key_id": "**************************************************",
+    "private_key": "-----BEGIN PRIVATE KEY-----###################################################################################
+     #############################################################################################################################
+    "client_email": "stock-pricing@stock-price-*******.iam.gserviceaccount.com",
+    "client_id": "****************",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
@@ -46,7 +47,7 @@ symbol_names = {
 
 # Function to fetch stock data from FinnHub API
 def fetch_stock_data(symbol):
-    api_key = "ct0qs99r01qkfpo5s9d0ct0qs99r01qkfpo5s9dg"
+    api_key = "*************************************************"
     url = f"https://finnhub.io/api/v1/quote?symbol={symbol}&token={api_key}"
     response = requests.get(url)
     if response.status_code == 200:
