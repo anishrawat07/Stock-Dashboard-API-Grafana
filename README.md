@@ -27,7 +27,7 @@ Dashboard [Link](http://localhost:3000/public-dashboards/df2a6d59ad4a48ff9ce6b28
 ---
 
 ## Generate the Finnhub API Key
-1. Visit Finnhub.io and sign up for an account.
+1. Visit Finnhub.io and sign up for an account. [Finnhub Link](https://www.finnhub.io/)
 2. Navigate to your dashboard to get the API Key.
 3. Replace the placeholder in the script:
 4. ![image](https://github.com/user-attachments/assets/67df6bda-7744-4607-acd6-3b789d72b0b4)
