@@ -55,7 +55,7 @@ Dashboard [Link](http://localhost:3000/public-dashboards/df2a6d59ad4a48ff9ce6b28
 1. Follow Google's Guide to generate Service Account credentials.
 2. Download the JSON file.
 3. Replace the credentials in the script:
-![image](https://github.com/user-attachments/assets/efabbd28-921a-451e-ad8b-694ce606c025)
+![image](https://github.com/user-attachments/assets/afdb815e-1038-493d-aa6c-996263c90457)
 
 ---
 
