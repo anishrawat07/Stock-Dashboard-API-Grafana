@@ -20,3 +20,59 @@ This project creates a live stock price dashboard using the Finnhub API, Python,
 ### 2. Start IPython in your terminal or Jupyter Notebook:
 
 ### 3. Copy and paste the code file (Stock_API_Code) into IPython (using %paste)
+
+---
+
+## Generate the Finnhub API Key
+1. Visit Finnhub.io and sign up for an account.
+2. Navigate to your dashboard to get the API Key.
+3. Replace the placeholder in the script:
+4. ![image](https://github.com/user-attachments/assets/67df6bda-7744-4607-acd6-3b789d72b0b4)
+
+---
+
+## Publish Your Google Sheet (for more Details visit [Link](https://support.google.com/docs/answer/183965?hl=en&co=GENIE.Platform%3DDesktop#zippy=))
+
+* When you publish a chart to the web, people can see the data used to create it. Be careful when publishing a chart with private or sensitive info.
+* Any changes you make to the original document will be updated in the published version. The automatic update might take a few minutes.
+* To remove a file from the web, you must stop publishing it. Learn how to stop publishing a file.
+* To stop sharing a file with collaborators, learn how to change sharing permissions.
+
+1. In Google Docs, Sheets, or Slides, open a file.
+2. At the top, click File and then Share and then Publish to web.
+3. Choose a publishing option:
+* Spreadsheet: Publish the entire spreadsheet or individual sheets. You can also choose a publishing format.
+* Presentation: Choose how quickly to advance the slides.
+4. Click Publish.
+5. Copy the URL and send it to anyone you’d like to see the file. Or, embed it into your website.
+
+---
+
+### Get JSON Credentials for Google Sheets
+1. Follow Google's Guide to generate Service Account credentials.
+2. Download the JSON file.
+3. Replace the credentials in the script:
+![image](https://github.com/user-attachments/assets/efabbd28-921a-451e-ad8b-694ce606c025)
+
+---
+
+### Install Grafana
+1. Download Grafana from Grafana Downloads.
+2. Install Grafana on your system.
+3. Go to Plugin's and install Infinity 
+4. Add Google Sheets as a data source.
+Create a dashboard to visualize stock prices.
+
+---
+
+## Visualizing Data in Grafana
+1. Configure your Google Sheet as a data source in Grafana.
+2. Use the copied Google Sheets URL for real-time updates.
+3. Create panels and customize your dashboard to monitor stock prices.
+
+---
+
+## Project Workflow
+1. Fetch stock data using Finnhub API.
+2. Update the data into a Google Sheet.
+3. Visualize the Google Sheet data in Grafana.
