@@ -32,7 +32,7 @@ Google Sheet [Link](https://docs.google.com/spreadsheets/d/1bD8diTR-EL8Lqr-bcmJX
 1. Visit Finnhub.io and sign up for an account. [Finnhub Link](https://www.finnhub.io/)
 2. Navigate to your dashboard to get the API Key.
 3. Replace the placeholder in the script:
-4. ![image](https://github.com/user-attachments/assets/67df6bda-7744-4607-acd6-3b789d72b0b4)
+![image](https://github.com/user-attachments/assets/a260b80a-c8cb-468d-b666-c4d017635408)
 
 ---
 
