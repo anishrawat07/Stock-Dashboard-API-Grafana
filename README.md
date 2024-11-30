@@ -3,7 +3,9 @@ This project creates a live stock price dashboard using the Finnhub API, Python,
 
 
 Dashboard [Link](http://localhost:3000/public-dashboards/df2a6d59ad4a48ff9ce6b28eeeafc504)
+
 Google Sheet [Link](https://docs.google.com/spreadsheets/d/1bD8diTR-EL8Lqr-bcmJXm8_Kn3CkzB4i1UBK9cYGKBw/edit?usp=sharing)
+
 ## Features
 
 - Fetch real-time stock prices using Finnhub API.
