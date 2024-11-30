@@ -57,11 +57,12 @@ This project creates a live stock price dashboard using the Finnhub API, Python,
 ---
 
 ### Install Grafana
-1. Download Grafana from Grafana Downloads.
+1. Download Grafana from Grafana Downloads. [Link](https://grafana.com/grafana/download)
 2. Install Grafana on your system.
 3. Go to Plugin's and install Infinity 
 4. Add Google Sheets as a data source.
 Create a dashboard to visualize stock prices.
+![image](https://github.com/user-attachments/assets/c1d9c22d-55ae-4dc6-8a59-e26bb6d8a11b)
 
 ---
 
@@ -69,6 +70,8 @@ Create a dashboard to visualize stock prices.
 1. Configure your Google Sheet as a data source in Grafana.
 2. Use the copied Google Sheets URL for real-time updates.
 3. Create panels and customize your dashboard to monitor stock prices.
+![image](https://github.com/user-attachments/assets/b5d82e2d-bc7f-4797-9862-12d2373d44d0)
+
 
 ---
 
